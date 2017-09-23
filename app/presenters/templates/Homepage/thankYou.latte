@@ -1,0 +1,14 @@
+{block content}
+
+		<div class="jumbotron">
+			<h1 class="display-3">Thank you!</h1>
+			<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			
+			<a href="{$facebookUrl}" class="btn btn-outline-primary" target="_blank">Share on Facebook</a>
+			<a href="{$twitterUrl}" class="btn btn-outline-primary" target="_blank">Share on Twitter</a>
+
+			<div class="form-group" style="margin-top: 30px">
+				<label for="link">Your unique link:</label>
+				<input type="text" value="{$refUrl}" id="link" class="form-control form-control-lg" readonly="readonly" onfocus="this.setSelectionRange(0,999);" onmouseup="return false;">
+			</div>
+		</div>
