@@ -75,7 +75,7 @@ This project forces `PHP 5.6` as your PHP version for Composer packages. If you 
 ```json
 "config": {
 	"platform": {
-		"php": "7.0"
+		"php": "5.6"
 	}
 }
 ```
